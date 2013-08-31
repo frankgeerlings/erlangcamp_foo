@@ -3,5 +3,5 @@
   {vsn, "1"},
   {modules, [foo, foo_app, foo_sup]},
   {registered, []},
-  {applications, [kernel, sasl]},
+  {applications, [kernel, stdlib]},
   {mod, {foo_app, []}}]}.
